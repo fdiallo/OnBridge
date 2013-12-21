@@ -5,15 +5,7 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# Changed for using heroku
-# gem 'mysql2'
-
-group :development, :test do
-  gem 'mysql2'
-end
-group :production do
-  gem 'pg'
-end
+gem 'mysql2'
 
 
 

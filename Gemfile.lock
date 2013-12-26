@@ -21,6 +21,16 @@ GIT
       refinerycms-settings (>= 2.1.0)
 
 GIT
+<<<<<<< HEAD
+=======
+  remote: git://github.com/refinery/refinerycms-page-images.git
+  revision: 497a9aea9cfaeed35ae2c0c374ca61c6e4824cc4
+  specs:
+    refinerycms-page-images (3.0.0.dev)
+      refinerycms-pages (>= 2.1.0)
+
+GIT
+>>>>>>> master
   remote: git://github.com/refinery/refinerycms-search.git
   revision: 46edf78775813584ca78fa08df53503a33b3511b
   specs:
@@ -100,12 +110,21 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     columnize (0.3.6)
+<<<<<<< HEAD
     debugger (1.6.3)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
       debugger-ruby_core_source (~> 1.2.4)
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.4)
+=======
+    debugger (1.6.4)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.3.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.3.0)
+>>>>>>> master
     decorators (1.0.3)
       railties (>= 3.0.19, != 3.2.9, != 3.2.8, != 3.2.7, != 3.2.6, != 3.2.5, != 3.2.4, != 3.2.3, != 3.2.2, != 3.2.10, != 3.2.1, != 3.2.0, != 3.1.9, != 3.1.8, != 3.1.7, != 3.1.6, != 3.1.5, != 3.1.4, != 3.1.3, != 3.1.2, != 3.1.1, != 3.1.0)
     devise (2.2.8)
@@ -143,7 +162,10 @@ GEM
     paper_trail (2.7.2)
       activerecord (~> 3.0)
       railties (~> 3.0)
+<<<<<<< HEAD
     pg (0.17.1)
+=======
+>>>>>>> master
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -261,7 +283,10 @@ DEPENDENCIES
   debugger
   jquery-rails
   mysql2
+<<<<<<< HEAD
   pg
+=======
+>>>>>>> master
   rails (= 3.2.14)
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
@@ -269,6 +294,10 @@ DEPENDENCIES
   refinerycms-events!
   refinerycms-inquiries!
   refinerycms-memberships!
+<<<<<<< HEAD
+=======
+  refinerycms-page-images!
+>>>>>>> master
   refinerycms-portfolio!
   refinerycms-search!
   sass-rails (~> 3.2.3)

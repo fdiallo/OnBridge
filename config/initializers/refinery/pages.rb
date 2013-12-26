@@ -6,10 +6,10 @@ Refinery::Pages.configure do |config|
   # end
 
   # Configure global page default parts
-  # config.default_parts = ["Body", "Side Body"]
+  config.default_parts = ["Body", "Side Body"]
 
   # Configure whether to allow adding new page parts
-  # config.new_page_parts = false
+  config.new_page_parts = true
 
   # Configure whether to enable marketable_urls
   # config.marketable_urls = true
@@ -46,8 +46,11 @@ Refinery::Pages.configure do |config|
   # config.auto_expand_admin_tree = true
 
   # config.layout_template_whitelist = ["application"]
+  # config.layout_template_whitelist = ["application", "customer"]
 
   # config.use_layout_templates = false
+  config.use_layout_templates = true
+
 
   # config.page_title = {:chain_page_title=>false, :ancestors=>{:separator=>" | ", :class=>"ancestors", :tag=>"span"}, :page_title=>{:class=>nil, :tag=>nil, :wrap_if_not_chained=>false}}
 

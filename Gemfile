@@ -1,17 +1,12 @@
 source 'https://rubygems.org'
 
+
 gem 'rails', '3.2.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
-  gem 'mysql2'
-end
-group :production do
-  gem 'pg'
-end
-
+gem 'mysql2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -60,7 +55,7 @@ gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
 #  gem 'refinerycms-portfolio', :git => 'git://github.com/refinery/refinerycms-portfolio.git', :branch => '2-0-stable'
    gem 'refinerycms-portfolio', :git => 'git://github.com/resolve/refinerycms-portfolio.git'
    gem "refinerycms-news", :git => 'git://github.com/refinery/refinerycms-news.git'
-#  gem 'refinerycms-page-images', :git => 'git://github.com/refinery/refinerycms-page-images.git'
+  gem 'refinerycms-page-images', :git => 'git://github.com/refinery/refinerycms-page-images.git'
 
 
 

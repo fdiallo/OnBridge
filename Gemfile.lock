@@ -12,22 +12,6 @@ GIT
       seo_meta (~> 1.4.0)
 
 GIT
-  remote: git://github.com/refinery/refinerycms-inquiries.git
-  revision: 2733f058cb86c713486e347ee2e8959c90452f8f
-  specs:
-    refinerycms-inquiries (2.1.0)
-      filters_spam (~> 0.2)
-      refinerycms-core (>= 2.1.0)
-      refinerycms-settings (>= 2.1.0)
-
-GIT
-  remote: git://github.com/refinery/refinerycms-page-images.git
-  revision: 497a9aea9cfaeed35ae2c0c374ca61c6e4824cc4
-  specs:
-    refinerycms-page-images (3.0.0.dev)
-      refinerycms-pages (>= 2.1.0)
-
-GIT
   remote: git://github.com/refinery/refinerycms-search.git
   revision: 46edf78775813584ca78fa08df53503a33b3511b
   specs:
@@ -53,12 +37,6 @@ GIT
       refinerycms-core (>= 2.0.0)
       refinerycms-settings (>= 2.0.0)
       webrat (~> 0.7.3)
-
-PATH
-  remote: vendor/extensions
-  specs:
-    refinerycms-events (1.0)
-      refinerycms-core (~> 2.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -273,10 +251,7 @@ DEPENDENCIES
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
   refinerycms-blog!
-  refinerycms-events!
-  refinerycms-inquiries!
   refinerycms-memberships!
-  refinerycms-page-images!
   refinerycms-portfolio!
   refinerycms-search!
   sass-rails (~> 3.2.3)

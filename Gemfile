@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
 
+gem 'rails_12factor'
+
+# ruby '2.0.0'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

@@ -12,6 +12,15 @@ GIT
       seo_meta (~> 1.4.0)
 
 GIT
+  remote: git://github.com/refinery/refinerycms-inquiries.git
+  revision: 2733f058cb86c713486e347ee2e8959c90452f8f
+  specs:
+    refinerycms-inquiries (2.1.0)
+      filters_spam (~> 0.2)
+      refinerycms-core (>= 2.1.0)
+      refinerycms-settings (>= 2.1.0)
+
+GIT
   remote: git://github.com/refinery/refinerycms-search.git
   revision: 46edf78775813584ca78fa08df53503a33b3511b
   specs:
@@ -251,6 +260,7 @@ DEPENDENCIES
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
   refinerycms-blog!
+  refinerycms-inquiries!
   refinerycms-memberships!
   refinerycms-portfolio!
   refinerycms-search!

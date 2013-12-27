@@ -131,6 +131,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.8.2)
+    mysql2 (0.3.14)
     nokogiri (1.5.11)
     orm_adapter (0.5.0)
     paper_trail (2.7.2)
@@ -254,6 +255,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   debugger
   jquery-rails
+  mysql2
   pg
   rails (= 3.2.14)
   refinerycms (~> 2.1.0)
